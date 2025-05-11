@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en" data-astro-cid-sckkx6r4>
+	<head>
+		<base href="https://ionmax1311.github.io/spin-land-en/" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta
+			name="description"
+			content="Embark on an epic adventure in Spin Land, where ancient wisdom meets mystical powers. Experience thrilling web-based games suitable for players 21+. Journey through magical realms filled with legendary rewards."
+		/>
+		<meta
+			name="keywords"
+			content="web games, browser games, html games, Spin Land, magical adventure, online entertainment, 21+"
+		/>
+		<meta name="age-restriction" content="21+" />
+		<link rel="icon" type="image/svg+xml" href="img/favicon.PNG" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>
+			Community Rules - Magical Adventure Games | 21+ | Spin Land
+		</title>
+		<link rel="stylesheet" href="css/about.mEC6aHLi.css" />
+		<style>
+			.magical-frame[data-astro-cid-cbfsj3jh] {
+				position: relative;
+				padding: 20px;
+			}
+			.magical-frame[data-astro-cid-cbfsj3jh]:before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				border: 2px solid transparent;
+				background: linear-gradient(45deg, #4aa5ff, #bc52ee) border-box;
+				-webkit-mask: linear-gradient(#fff 0 0) padding-box,
+					linear-gradient(#fff 0 0);
+				mask: linear-gradient(#fff 0 0) padding-box,
+					linear-gradient(#fff 0 0);
+				-webkit-mask-composite: xor;
+				mask-composite: exclude;
+				border-radius: 0.5rem;
+				animation: framePulse 4s infinite;
+			}
+			.shadow-magical[data-astro-cid-cbfsj3jh] {
+				box-shadow: 0 0 20px #bc52ee33;
+			}
+			@keyframes framePulse {
+				0%,
+				to {
+					opacity: 0.5;
+				}
+				50% {
+					opacity: 1;
+				}
+			}
+		</style>
+	</head>
+	<body
+		class="bg-[#1a1a2e] text-white overflow-x-hidden"
+		data-astro-cid-sckkx6r4
+	>
+		<!-- Age Verification Modal -->
+		<div
+			id="ageVerificationModal"
+			class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden"
+			data-astro-cid-sckkx6r4
+		>
+			<div
+				class="min-h-screen flex items-center justify-center p-4"
+				data-astro-cid-sckkx6r4
+			>
+				<div
+					class="bg-[#2a2a4e] rounded-lg max-w-md w-full p-8 relative"
+					data-astro-cid-sckkx6r4
+				>
+					<div class="text-center" data-astro-cid-sckkx6r4>
+						<!-- Age Badge -->
+						<div
+							class="w-20 h-20 bg-magical-purple rounded-full flex items-center justify-center mx-auto mb-6"
+							data-astro-cid-sckkx6r4
+						>
+							<span
+								class="text-white font-medieval text-3xl"
+								data-astro-cid-sckkx6r4
+							>
+								<img
+									class="img-age-popup"
+									src="img/21.png"
+									alt=""
+									data-astro-cid-sckkx6r4
+								/>
+							</span>
+						</div>
+						<h2
+							class="text-2xl font-medieval text-magical-gold mb-4"
+							data-astro-cid-sckkx6r4
+						>
+							Age Verification Required
+						</h2>
+						<p class="text-gray-300 mb-8" data-astro-cid-sckkx6r4>
+							You must be
+							<span
+								class="text-magical-gold font-medieval"
+								data-astro-cid-sckkx6r4
+								>21 years or older</span
+							>
+							to enter this magical realm. Please confirm your age
+							to continue.
+						</p>
+						<div class="space-y-4" data-astro-cid-sckkx6r4>
+							<button
+								id="confirmAge"
+								class="w-full py-3 px-6 bg-magical-purple hover:bg-magical-blue transition-colors duration-300 rounded-lg text-white font-medieval"
+								data-astro-cid-sckkx6r4
+							>
+								I am 21 or older
+							</button>
+							<button
+								id="denyAge"
+								class="w-full py-3 px-6 border border-magical-gold/50 hover:bg-magical-gold/10 transition-colors duration-300 rounded-lg text-magical-gold font-medieval"
+								data-astro-cid-sckkx6r4
+							>
+								I am under 21
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav
+			class="fixed w-full z-50 bg-transparent py-4"
+			data-astro-cid-pux6a34n
+		>
+			<div class="container mx-auto px-4" data-astro-cid-pux6a34n>
+				<div
+					class="flex justify-between items-center relative"
+					data-astro-cid-pux6a34n
+				>
+					<a
+						href="index.html"
+						class="text-magical-gold font-medieval text-2xl"
+						data-astro-cid-pux6a34n
+					>
+						<span class="sr-only" data-astro-cid-pux6a34n
+							>Home</span
+						>
+						<div
+							class="w-10 h-10 bg-magical-gold/20 rounded-full flex items-center justify-center"
+							data-astro-cid-pux6a34n
+						>
+							<span
+								class="text-magical-gold"
+								data-astro-cid-pux6a34n
+								>✧</span
+							>
+						</div>
+					</a>
+					<div
+						class="hidden md:flex space-x-12"
+						data-astro-cid-pux6a34n
+					>
+						<a
+							href="index.html"
+							class="font-medieval text-magical-gold hover:text-magical-purple transition-colors duration-300 px-2"
+							data-astro-cid-pux6a34n
+						>
+							HOME </a
+						><a
+							href="about.html"
+							class="font-medieval text-magical-gold hover:text-magical-purple transition-colors duration-300 px-2"
+							data-astro-cid-pux6a34n
+						>
+							ABOUT US </a
+						><a
+							href="rules.html"
+							class="font-medieval text-magical-gold hover:text-magical-purple transition-colors duration-300 px-2"
+							data-astro-cid-pux6a34n
+						>
+							COMMUNITY RULES </a
+						><a
+							href="responsible.html"
+							class="font-medieval text-magical-gold hover:text-magical-purple transition-colors duration-300 px-2"
+							data-astro-cid-pux6a34n
+						>
+							RESPONSIBLE GAMING </a
+						><a
+							href="contact.html"
+							class="font-medieval text-magical-gold hover:text-magical-purple transition-colors duration-300 px-2"
+							data-astro-cid-pux6a34n
+						>
+							CONTACT US
+						</a>
+					</div>
+					<button
+						id="mobile-menu-button"
+						class="md:hidden text-magical-gold hover:text-magical-purple transition-colors p-2 rounded-full bg-magical-purple/10"
+						aria-label="Toggle menu"
+						data-astro-cid-pux6a34n
+					>
+						<svg
+							class="w-6 h-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							data-astro-cid-pux6a34n
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h16m-16 6h16"
+								data-astro-cid-pux6a34n
+							></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<!-- Mobile menu -->
+			<div
+				id="mobile-menu"
+				class="fixed inset-0 transform translate-x-full transition-transform duration-500 md:hidden z-[100]"
+				data-astro-cid-pux6a34n
+			>
+				<div
+					class="absolute inset-0 bg-[#1a1a2e]"
+					data-astro-cid-pux6a34n
+				></div>
+				<div
+					class="flex justify-end p-4 relative z-[110]"
+					data-astro-cid-pux6a34n
+				>
+					<button
+						id="close-menu-button"
+						class="text-magical-gold hover:text-magical-purple transition-colors p-2 rounded-full bg-magical-purple/10"
+						aria-label="Close menu"
+						data-astro-cid-pux6a34n
+					>
+						<svg
+							class="w-6 h-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+							data-astro-cid-pux6a34n
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"
+								data-astro-cid-pux6a34n
+							></path>
+						</svg>
+					</button>
+				</div>
+				<div
+					class="flex flex-col items-center justify-center min-h-screen relative"
+					data-astro-cid-pux6a34n
+				>
+					<div
+						class="absolute inset-0 bg-gradient-to-b from-[#2a2a4e] to-[#1a1a2e]"
+						data-astro-cid-pux6a34n
+					></div>
+					<div
+						class="relative z-10 w-full max-w-md mx-auto px-6"
+						data-astro-cid-pux6a34n
+					>
+						<a
+							href="index.html"
+							class="block font-medieval text-3xl text-magical-gold hover:text-magical-purple transition-all duration-300 py-4 my-2 rounded-lg hover:bg-magical-purple/10 text-center hover:scale-105 transform"
+							data-astro-cid-pux6a34n
+						>
+							<span class="relative" data-astro-cid-pux6a34n>
+								HOME
+								<span
+									class="absolute -bottom-1 left-0 w-full h-0.5 bg-magical-purple transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"
+									data-astro-cid-pux6a34n
+								></span>
+							</span> </a
+						><a
+							href="about.html"
+							class="block font-medieval text-3xl text-magical-gold hover:text-magical-purple transition-all duration-300 py-4 my-2 rounded-lg hover:bg-magical-purple/10 text-center hover:scale-105 transform"
+							data-astro-cid-pux6a34n
+						>
+							<span class="relative" data-astro-cid-pux6a34n>
+								ABOUT US
+								<span
+									class="absolute -bottom-1 left-0 w-full h-0.5 bg-magical-purple transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"
+									data-astro-cid-pux6a34n
+								></span>
+							</span> </a
+						><a
+							href="rules.html"
+							class="block font-medieval text-3xl text-magical-gold hover:text-magical-purple transition-all duration-300 py-4 my-2 rounded-lg hover:bg-magical-purple/10 text-center hover:scale-105 transform"
+							data-astro-cid-pux6a34n
+						>
+							<span class="relative" data-astro-cid-pux6a34n>
+								COMMUNITY RULES
+								<span
+									class="absolute -bottom-1 left-0 w-full h-0.5 bg-magical-purple transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"
+									data-astro-cid-pux6a34n
+								></span>
+							</span> </a
+						><a
+							href="responsible.html"
+							class="block font-medieval text-3xl text-magical-gold hover:text-magical-purple transition-all duration-300 py-4 my-2 rounded-lg hover:bg-magical-purple/10 text-center hover:scale-105 transform"
+							data-astro-cid-pux6a34n
+						>
+							<span class="relative" data-astro-cid-pux6a34n>
+								RESPONSIBLE GAMING
+								<span
+									class="absolute -bottom-1 left-0 w-full h-0.5 bg-magical-purple transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"
+									data-astro-cid-pux6a34n
+								></span>
+							</span> </a
+						><a
+							href="contact.html"
+							class="block font-medieval text-3xl text-magical-gold hover:text-magical-purple transition-all duration-300 py-4 my-2 rounded-lg hover:bg-magical-purple/10 text-center hover:scale-105 transform"
+							data-astro-cid-pux6a34n
+						>
+							<span class="relative" data-astro-cid-pux6a34n>
+								CONTACT US
+								<span
+									class="absolute -bottom-1 left-0 w-full h-0.5 bg-magical-purple transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"
+									data-astro-cid-pux6a34n
+								></span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<script type="module">
+			const t = document.getElementById("mobile-menu"),
+				l = document.getElementById("mobile-menu-button"),
+				o = document.getElementById("close-menu-button");
+			function n() {
+				const e = t.classList.contains("translate-x-0");
+				t.classList.toggle("translate-x-0", !e),
+					t.classList.toggle("translate-x-full", e),
+					(document.body.style.overflow = e ? "" : "hidden");
+			}
+			l.addEventListener("click", n);
+			o.addEventListener("click", n);
+			t.querySelectorAll("a").forEach((e) => {
+				e.addEventListener("click", n);
+			});
+		</script>
+		<main data-astro-cid-cbfsj3jh>
+			<!-- Hero Section -->
+			<div class="inner-page-hero" data-astro-cid-cbfsj3jh>
+				<div class="text-center" data-astro-cid-cbfsj3jh>
+					<h1
+						class="text-5xl font-medieval text-magical-gold mb-4"
+						data-astro-cid-cbfsj3jh
+					>
+						Community Rules – Fair Play & Respect
+					</h1>
+					<p class="text-xl text-gray-300" data-astro-cid-cbfsj3jh>
+						Guidelines for a harmonious gaming experience
+					</p>
+				</div>
+			</div>
+			<!-- Content Section -->
+			<div class="py-[50px]" data-astro-cid-cbfsj3jh>
+				<div class="container mx-auto px-4" data-astro-cid-cbfsj3jh>
+					<div class="max-w-4xl mx-auto" data-astro-cid-cbfsj3jh>
+						<!-- Main Image -->
+						<div class="mb-12 relative" data-astro-cid-cbfsj3jh>
+							<div class="magical-frame" data-astro-cid-cbfsj3jh>
+								<img
+									src="img/img.webp"
+									alt="Fair Play Illustration"
+									class="w-full rounded-lg shadow-magical"
+									data-astro-cid-cbfsj3jh
+								/>
+							</div>
+						</div>
+						<!-- Content -->
+						<div
+							class="bg-[#2a2a4e]/30 p-8 rounded-lg backdrop-blur-sm space-y-8 text-gray-300"
+							data-astro-cid-cbfsj3jh
+						>
+							<!-- Introduction -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8 first:mt-0"
+									data-astro-cid-cbfsj3jh
+								>
+									Welcome to Our Community
+								</h2>
+								<p data-astro-cid-cbfsj3jh>
+									Spin Land is built on the foundation of
+									HTML5 gaming technology, creating an
+									inclusive and engaging environment for all
+									players. Our community guidelines ensure
+									that everyone can enjoy their gaming
+									experience while maintaining respect,
+									fairness, and positive interaction.
+								</p>
+							</section>
+							<!-- Core Values -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Core Values
+								</h2>
+								<div
+									class="grid md:grid-cols-2 gap-6"
+									data-astro-cid-cbfsj3jh
+								>
+									<div
+										class="p-6 bg-magical-purple/10 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl font-medieval text-magical-gold mb-3"
+											data-astro-cid-cbfsj3jh
+										>
+											✨ Respect
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Treat all community members with
+											kindness and consideration,
+											regardless of their gaming
+											experience or background.
+										</p>
+									</div>
+									<div
+										class="p-6 bg-magical-purple/10 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl font-medieval text-magical-gold mb-3"
+											data-astro-cid-cbfsj3jh
+										>
+											🤝 Fair Play
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Engage in games honestly, without
+											attempting to exploit or manipulate
+											game mechanics.
+										</p>
+									</div>
+									<div
+										class="p-6 bg-magical-purple/10 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl font-medieval text-magical-gold mb-3"
+											data-astro-cid-cbfsj3jh
+										>
+											🛡️ Safety
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Help maintain a secure environment
+											by reporting suspicious behavior and
+											protecting personal information.
+										</p>
+									</div>
+									<div
+										class="p-6 bg-magical-purple/10 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl font-medieval text-magical-gold mb-3"
+											data-astro-cid-cbfsj3jh
+										>
+											🌟 Positivity
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Contribute to a welcoming atmosphere
+											through positive interactions and
+											supportive behavior.
+										</p>
+									</div>
+								</div>
+							</section>
+							<!-- Expected Behavior -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Expected Behavior
+								</h2>
+								<div
+									class="grid md:grid-cols-2 gap-6"
+									data-astro-cid-cbfsj3jh
+								>
+									<div
+										class="space-y-3"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold"
+											data-astro-cid-cbfsj3jh
+										>
+											Do's ✅
+										</h3>
+										<ul
+											class="list-disc pl-6 space-y-2"
+											data-astro-cid-cbfsj3jh
+										>
+											<li data-astro-cid-cbfsj3jh>
+												Use appropriate language and
+												maintain respectful
+												communication
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Follow game rules and mechanics
+												as intended
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Help new players understand game
+												features
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Report technical issues through
+												proper channels
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Celebrate others' achievements
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Protect your account security
+											</li>
+										</ul>
+									</div>
+									<div
+										class="space-y-3"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold"
+											data-astro-cid-cbfsj3jh
+										>
+											Don'ts ❌
+										</h3>
+										<ul
+											class="list-disc pl-6 space-y-2"
+											data-astro-cid-cbfsj3jh
+										>
+											<li data-astro-cid-cbfsj3jh>
+												Use offensive language or harass
+												other players
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Exploit game bugs or glitches
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Share personal information in
+												public chats
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Create multiple accounts
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Use automated scripts or bots
+											</li>
+											<li data-astro-cid-cbfsj3jh>
+												Spread false information about
+												games or players
+											</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							<!-- Fair Play System -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Fair Play System
+								</h2>
+								<p data-astro-cid-cbfsj3jh>
+									Our HTML5-based gaming platform incorporates
+									several technical measures to ensure fair
+									play:
+								</p>
+								<div class="space-y-4" data-astro-cid-cbfsj3jh>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											Anti-Cheat Protection
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Client-side validation and
+											server-side verification prevent
+											manipulation of game mechanics.
+										</p>
+									</div>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											Rate Limiting
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Prevents rapid-fire actions and
+											ensures all players operate within
+											normal human capabilities.
+										</p>
+									</div>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											Session Monitoring
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Tracks unusual patterns of behavior
+											to maintain game integrity.
+										</p>
+									</div>
+								</div>
+							</section>
+							<!-- Reporting System -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Reporting System
+								</h2>
+								<p data-astro-cid-cbfsj3jh>
+									Help maintain our community standards by
+									reporting violations:
+								</p>
+								<ol
+									class="list-decimal pl-6 space-y-2"
+									data-astro-cid-cbfsj3jh
+								>
+									<li data-astro-cid-cbfsj3jh>
+										Use the in-game reporting feature
+									</li>
+									<li data-astro-cid-cbfsj3jh>
+										Provide specific details about the
+										incident
+									</li>
+									<li data-astro-cid-cbfsj3jh>
+										Include screenshots or recordings if
+										possible
+									</li>
+									<li data-astro-cid-cbfsj3jh>
+										Avoid engaging with the reported player
+									</li>
+									<li data-astro-cid-cbfsj3jh>
+										Wait for moderator investigation and
+										action
+									</li>
+								</ol>
+							</section>
+							<!-- FAQ Section -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Frequently Asked Questions
+								</h2>
+								<div class="space-y-4" data-astro-cid-cbfsj3jh>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											What happens if I break a rule?
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Depending on the severity and
+											frequency of violations, actions may
+											include warnings, temporary
+											suspension, or permanent account
+											closure.
+										</p>
+									</div>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											How can I appeal a moderation
+											decision?
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Contact our support team with your
+											case number and any additional
+											context that might help review your
+											situation.
+										</p>
+									</div>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											How do you handle false reports?
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											All reports are thoroughly
+											investigated before any action is
+											taken. False reporting may result in
+											penalties for the reporter.
+										</p>
+									</div>
+									<div
+										class="p-4 border border-magical-purple/30 rounded-lg"
+										data-astro-cid-cbfsj3jh
+									>
+										<h3
+											class="text-xl text-magical-gold mb-2"
+											data-astro-cid-cbfsj3jh
+										>
+											What should I do if I witness
+											cheating?
+										</h3>
+										<p data-astro-cid-cbfsj3jh>
+											Report the incident immediately
+											using our in-game reporting system
+											and provide any available evidence.
+										</p>
+									</div>
+								</div>
+							</section>
+							<!-- Contact Section -->
+							<section class="space-y-4" data-astro-cid-cbfsj3jh>
+								<h2
+									class="text-3xl font-medieval text-magical-gold mt-8"
+									data-astro-cid-cbfsj3jh
+								>
+									Need Help?
+								</h2>
+								<p data-astro-cid-cbfsj3jh>
+									If you have questions about our community
+									rules or need to report a violation, contact
+									our moderation team:
+								</p>
+								<div
+									class="p-4 bg-magical-purple/10 rounded-lg"
+									data-astro-cid-cbfsj3jh
+								>
+									<p data-astro-cid-cbfsj3jh>
+										Email: moderation@spintasticaland.com
+									</p>
+									<p data-astro-cid-cbfsj3jh>
+										Support Hours: 24/7
+									</p>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="bg-[#1a1a2e] pt-20 pb-10" data-astro-cid-sz7xmlte>
+			<div class="container mx-auto px-4" data-astro-cid-sz7xmlte>
+				<div
+					class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12"
+					data-astro-cid-sz7xmlte
+				>
+					<div data-astro-cid-sz7xmlte>
+						<h3
+							class="text-magical-gold font-medieval text-xl mb-4"
+							data-astro-cid-sz7xmlte
+						>
+							About Us
+						</h3>
+						<p class="text-gray-400" data-astro-cid-sz7xmlte>
+							Spin Land - Where enchanted reels weave tales of
+							wonder. For users 21 and above.
+						</p>
+					</div>
+					<div data-astro-cid-sz7xmlte>
+						<h3
+							class="text-magical-gold font-medieval text-xl mb-4"
+							data-astro-cid-sz7xmlte
+						>
+							Contact
+						</h3>
+						<div
+							class="space-y-2 text-gray-400"
+							data-astro-cid-sz7xmlte
+						>
+							<p data-astro-cid-sz7xmlte>123 Enchanted Lane</p>
+							<p data-astro-cid-sz7xmlte>London, UK EC1A 1BB</p>
+							<p data-astro-cid-sz7xmlte>
+								support@spintasticaland.com
+							</p>
+						</div>
+					</div>
+					<div data-astro-cid-sz7xmlte>
+						<h3
+							class="text-magical-gold font-medieval text-xl mb-4"
+							data-astro-cid-sz7xmlte
+						>
+							Legal
+						</h3>
+						<div class="space-y-2" data-astro-cid-sz7xmlte>
+							<a
+								href="privacy"
+								class="text-gray-400 hover:text-magical-gold block"
+								data-astro-cid-sz7xmlte
+								>Privacy Policy</a
+							>
+							<a
+								href="terms"
+								class="text-gray-400 hover:text-magical-gold block"
+								data-astro-cid-sz7xmlte
+								>Terms & Conditions</a
+							>
+							<a
+								href="cookies"
+								class="text-gray-400 hover:text-magical-gold block"
+								data-astro-cid-sz7xmlte
+								>Cookie Policy</a
+							>
+						</div>
+					</div>
+					<div data-astro-cid-sz7xmlte>
+						<h3
+							class="text-magical-gold font-medieval text-xl mb-4"
+							data-astro-cid-sz7xmlte
+						>
+							Age Restriction
+						</h3>
+						<div
+							class="flex items-center gap-4"
+							data-astro-cid-sz7xmlte
+						>
+							<span
+								class="text-magical-gold text-2xl"
+								data-astro-cid-sz7xmlte
+							>
+								<img
+									class="img-age"
+									src="img/21.png"
+									alt=""
+									data-astro-cid-sz7xmlte
+								/>
+							</span>
+							<p class="text-gray-400" data-astro-cid-sz7xmlte>
+								For entertainment purposes only
+							</p>
+						</div>
+					</div>
+				</div>
+				<div
+					class="border-t border-gray-800 pt-8 mt-8"
+					data-astro-cid-sz7xmlte
+				>
+					<div
+						class="text-gray-400 text-sm mb-6"
+						data-astro-cid-sz7xmlte
+					>
+						<h4
+							class="font-medieval text-magical-gold mb-4"
+							data-astro-cid-sz7xmlte
+						>
+							Disclaimer & Age Restriction Notice
+						</h4>
+						<p class="mb-4" data-astro-cid-sz7xmlte>
+							This platform is intended for users aged 21 years
+							and older and operates solely as a social and
+							entertainment hub. There is no real money gaming or
+							betting on this website. All games featured here are
+							part of "Spin Land" and are purely social, meaning
+							no real prizes or winnings will be issued.
+						</p>
+						<p class="mb-4" data-astro-cid-sz7xmlte>
+							Achievements and progress made within these games
+							are for entertainment purposes only and do not
+							translate into real-world outcomes or success in any
+							form of real-money gambling. Winning in these games
+							does not guarantee future wins in any "real stakes"
+							gambling activities.
+						</p>
+						<p class="mb-4" data-astro-cid-sz7xmlte>
+							This website serves as a free-access portal to
+							social Spin Land games, and we take no
+							responsibility for their content. If you believe any
+							game causes offense or harm, please contact us. Our
+							goal is to provide a fun and engaging experience for
+							all users—enjoy, play responsibly, and remember that
+							it's all about entertainment!
+						</p>
+						<div class="footer__logos" data-astro-cid-sz7xmlte>
+							<a
+								href="https://gamblersanonymous.org/"
+								target="_blank"
+								rel="noopener noreferrer"
+								data-astro-cid-sz7xmlte
+							>
+								<img
+									src="img/Gamblers-Anon-Header-Logo.png"
+									alt="Gamblers Anonymous"
+									class="footer__logo"
+									data-astro-cid-sz7xmlte
+								/>
+							</a>
+							<a
+								href="https://www.ncpgambling.org/"
+								target="_blank"
+								rel="noopener noreferrer"
+								data-astro-cid-sz7xmlte
+							>
+								<img
+									src="img/logo-split-home-ncpg.svg"
+									alt="National Council on Problem Gambling"
+									class="footer__logo"
+									data-astro-cid-sz7xmlte
+								/>
+							</a>
+							<a
+								href="https://cgaa.info/"
+								target="_blank"
+								rel="noopener noreferrer"
+								data-astro-cid-sz7xmlte
+							>
+								<img
+									src="img/gaa-text-188x57-2.webp"
+									alt="Computer Gaming Addicts Anonymous"
+									class="footer__logo"
+									data-astro-cid-sz7xmlte
+								/>
+							</a>
+						</div>
+					</div>
+					<div
+						class="flex flex-wrap items-center justify-center gap-4"
+						data-astro-cid-sz7xmlte
+					>
+						<p class="text-gray-400" data-astro-cid-sz7xmlte>
+							© 2025 Spin Land. All rights reserved.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="module">
+			document.addEventListener("DOMContentLoaded", function () {
+				const e = document.getElementById("ageVerificationModal"),
+					t = document.getElementById("confirmAge"),
+					n = document.getElementById("denyAge");
+				sessionStorage.getItem("ageVerified") ||
+					(e.classList.remove("hidden"),
+					(document.body.style.overflow = "hidden")),
+					t.addEventListener("click", function () {
+						sessionStorage.setItem("ageVerified", "true"),
+							e.classList.add("hidden"),
+							(document.body.style.overflow = "");
+					}),
+					n.addEventListener("click", function () {
+						window.location.href = "https://www.google.com";
+					});
+			});
+		</script>
+	</body>
+</html>
